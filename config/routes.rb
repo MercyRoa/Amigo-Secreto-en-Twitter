@@ -1,4 +1,6 @@
 Secretfriend::Application.routes.draw do
+  resources :gifts
+
   resources :friends
 
   resources :games
